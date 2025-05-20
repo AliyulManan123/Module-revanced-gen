@@ -11,7 +11,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
 version = "20.12.46"
 excluded-patches = "'Copy video URL' 'Swipe controls' 'Hide video action buttons' 'Alternative thumbnails' 'Enable debugging' 'GmsCore support'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50 -e 'Change header' -Oheader=premium*header"
+patcher-args = "-e 'Change header' -Oheader='premium*header' -e Theme -OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50 "
 
 [IconPackStudio]
 enabled = false
