@@ -13,7 +13,7 @@ version = "20.12.46"
 excluded-patches = "'Copy video URL' 'Swipe controls' 'Hide video action buttons' 'Alternative thumbnails' 'Enable debugging' 'GmsCore support'"
 patcher-args = "-e 'Change header' -Oheader='premium*header' -e Theme -OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50 "
 
-[YT Music]
+[Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 build-mode = "both"
